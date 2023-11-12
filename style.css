@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+#nav{
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    color:#fff;
+    /* position: relative; */
+    height: 60px;
+    /* background-color: red; */
+}
+
+#nleft img{
+    /* margin-top: 6px; */
+    /* position: absolute; */
+    width: 220px;
+    align-items: center;
+}
+#ncenter{
+    /* text-transform: uppercase; */
+    display: flex;
+    font-size: 16px;
+    
+    align-items: center;
+    
+}
+#ncenter h3{
+    font-weight: 900;
+    padding: 0 12px;
+}
+#nright{
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    gap: 20px;
+}
+
+#nright button{
+    /* text-transform: uppercase; */
+    padding: 0 15px;
+    font-size: 14px;
+    line-height: 38px;
+    cursor: pointer;
+}
+#main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: 110px;
+    text-align: center;
+    color: white;
+}
+
+#main span{
+    background-color: brown;
+    /* color: #000; */
+    margin: 0 30px;
+    font-size: 25px;
+    padding: 25px 40px;
+    border-radius: 50px;
+}
+
+#main h1:nth-child(2){
+    margin-top: 100px;
+}
+/* #main h1:nth-child(4){
+    position: absolute;
+    left: 30%;
+} */
+#main #imgleft{
+    position: absolute;
+    height: 230px;
+    left: 100px;
+    top: 15%;
+    border-radius: 20px;
+}
+#main #imgright{
+    position: absolute;
+    height: 230px;
+    right: 120px;
+    bottom: 15%;
+    border-radius: 20px;
+}
+#main #imgcenter{
+    position: fixed;
+    height: 230px;
+    left: 15%;
+    bottom: 7%;
+    border-radius: 20px;
+}
+#scroll {
+    position: absolute;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%,0);
+    bottom: 6%;
+    font-size: 15px;
+    font-weight: 800;
+}
+
